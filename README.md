@@ -15,17 +15,9 @@
 
 # Install Python and Other Tools
 
-* For **Linux/Wsl**
-
 ```
 sudo apt update && sudo apt install -y python3 python3-venv python3-pip curl wget screen git lsof
 
-```
-
-* **For Mac**
-
-```
-brew install python
 ```
 
 Check Version
@@ -37,13 +29,11 @@ python3 --version
 
 # Install Node.js , npm & yarn
 
-* For **Linux/Wsl**
-
 ```
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt update && sudo apt install -y nodejs
 ```
 
-* Install Yarn (linux)
+* Install Yarn 
 
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
@@ -57,14 +47,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt update && sudo apt install -y yarn
 ```
 
-
-* For **Mac**
-
-```
-brew install node && corepack enable && npm install -g yarn
-```
-
-* Check version **(Linux/Mac)**
+* Check version
 
 ```
 node -v
@@ -80,7 +63,7 @@ yarn -v
 
 <div align="center">
 
-# 👨🏻‍💻 Start The Node (Linux/Mac) 
+# 👨🏻‍💻 Start The Node
 
 </div>
 
@@ -92,7 +75,7 @@ git clone https://github.com/gensyn-ai/rl-swarm.git
 ```
 
 
-* 2️⃣ Create a screen session **(vps)**
+* 2️⃣ Create a screen session
 
 ```
 screen -S gensyn
@@ -163,7 +146,7 @@ Its Done ✅
 
 It will Generate Logs Soon🙌
 
-# 5️⃣ How To start the Next Day (Local Pc)
+# 5️⃣ How To start the Next Day
 
 *
  ```
